@@ -12,11 +12,8 @@
 # COMMAND ----------
 
 files = dbutils.fs.ls(f"{dataset_bookstore}/kafka-raw")
+display(files) 
 
-
-# COMMAND ----------
-
-display(files)
 
 # COMMAND ----------
 
